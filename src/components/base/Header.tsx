@@ -1,5 +1,5 @@
 // import Bgimg from '../../images/home/photo_2025-06-23_18-00-58.jpg';
-import Bgvideo from '../../video/TensorPix - 13110393-hd_1280_720_30fps.mp4';
+import Bgvideo from '../../video/203fb363-c5b3-4b2b-bf83-7ea138c8e786 (1).mp4';
 import { useLanguage } from '../../context/LanguageContext';
 import { motion } from 'framer-motion';
 
