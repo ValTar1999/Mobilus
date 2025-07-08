@@ -1,22 +1,34 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Nav from './components/Nav';
 import Home from './pages/Home';
-import Project from './pages/Project';
 import About from './pages/About';
+import Projects from './pages/Projects';
+import ProjectDetail from './components/base/Project/Project';
+import Footer from './components/Footer';
+import PageFade from './components/PageFade';
+
+function AnimatedRoutes() {
+  const location = useLocation();
+  return (
+    <PageFade trigger={location.pathname}>
+      <Nav />
+      <Routes location={location} key={location.pathname}>
+        <Route path="/" element={<Home />} />
+        <Route path="/project/:id" element={<ProjectDetail />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+      <Footer />
+    </PageFade>
+  );
+}
 
 function App() {
   return (
     <Router>
-      <Nav/>
-      <div className="flex items-center justify-center min-h-screen bg-gray-100 text-4xl font-bold">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
-      </div>
+      <AnimatedRoutes />
     </Router>
   );
 }
 
-export default App
+export default App;

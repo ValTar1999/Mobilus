@@ -9,6 +9,9 @@ export default {
     extend: {
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        alata: ["Alata", "sans-serif"],
+        gabarito: ["Gabarito", "sans-serif"],
       },
     },
   },

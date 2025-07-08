@@ -13,7 +13,7 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   return (
     <button
-      className="rounded-full bg-yellow-500 hover:bg-yellow-600 transition-colors duration-300 px-4 py-1 text-sm leading-snug"
+      className="rounded-full bg-white hover:bg-zinc-200 text-zinc-900 transition-colors duration-500 px-4 py-1 text-sm leading-snug"
       type={type}
       onClick={onClick}
       disabled={disabled}
