@@ -74,9 +74,9 @@ const ProjectDetail = () => {
           <div key={roomIdx} className="grid gap-3 md:gap-6">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
-              viewport={{ once: true, amount: 0.4 }}
+              viewport={{ once: true, amount: 0 }}
               className="text-3xl md:text-5xl font-medium font-montserrat text-zinc-50"
             >
               {getLang(room.title, language)}
@@ -89,9 +89,9 @@ const ProjectDetail = () => {
                   alt={`${getLang(project.name, language)} - ${getLang(room.title, language)} ${imgIdx + 1}`}
                   className={`w-screen object-cover ${room.imgs.length > 1 ? 'h-[500px]' : 'h-full'}`}
                   initial={{ opacity: 0, scale: 0.95 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
+                  animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1], delay: 0.2 + imgIdx * 0.15 }}
-                  viewport={{ once: true, amount: 0.4 }}
+                  viewport={{ once: true, amount: 0 }}
                 />
               ))}
             </div>

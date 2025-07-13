@@ -10,9 +10,9 @@ const Project = () => {
       <div className="grid lg:grid-cols-2 gap-5 lg:gap-10 mt-5 xl:mt-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0 }}
-          viewport={{ once: true, amount: 0.4 }}
+          viewport={{ once: true, amount: 0 }}
           className="flex flex-col justify-center lg:max-w-lg"
         >
           <h2 className='text-4xl lg:text-5xl text-zinc-50 font-bold font-montserrat'>{t('projectsBlock', 'title')}</h2>
@@ -22,9 +22,9 @@ const Project = () => {
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.5 }}
-          viewport={{ once: true, amount: 0.4 }}
+          viewport={{ once: true, amount: 0 }}
           className="grid grid-cols-2 gap-5 lg:gap-10"
         >
           {Projects.slice(0, 4).map((project, idx) => (

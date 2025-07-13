@@ -30,25 +30,25 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            viewport={{ once: true, amount: 0.4 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 0 }}
             className="flex justify-center flex-col gap-4"
           >
             <motion.h2
               initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true, amount: 0.4 }}
+              viewport={{ once: true, amount: 0 }}
               className='text-zinc-50 font-montserrat font-semibold text-2xl'
             >
               {t('about', 'block1_title')}
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true, amount: 0.4 }}
+              viewport={{ once: true, amount: 0 }}
               className='text-zinc-300 font-alata text-lg'
             >
               {t('about', 'block1_desc')}
@@ -61,43 +61,43 @@ const About = () => {
           <video className='w-[500px] object-cover h-[750px]' autoPlay loop muted src={VideoP}></video>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            viewport={{ once: true, amount: 0.4 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 0 }}
             className="flex justify-center flex-col gap-4"
           >
             <motion.h2
               initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true, amount: 0.4 }}
+              viewport={{ once: true, amount: 0 }}
               className='text-zinc-50 font-montserrat font-semibold text-2xl'
             >
               {t('about', 'block2_title')}
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true, amount: 0.4 }}
+              viewport={{ once: true, amount: 0 }}
               className='text-zinc-300 font-alata text-lg'
             >
               {t('about', 'block2_desc')}
             </motion.p>
             <motion.ul
               initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true, amount: 0.4 }}
+              viewport={{ once: true, amount: 0 }}
               className='text-zinc-300 list-disc ml-4 text-base font-alata'
             >
               {block2List.map((item, idx) => <li key={idx}>{item}</li>)}
             </motion.ul>
             <motion.p
               initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true, amount: 0.4 }}
+              viewport={{ once: true, amount: 0 }}
               className='text-zinc-300 font-alata text-lg'
             >
               {t('about', 'block2_desc2')}
@@ -108,25 +108,25 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            viewport={{ once: true, amount: 0.4 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 0 }}
             className="flex justify-center flex-col gap-4"
           >
             <motion.h2
               initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true, amount: 0.4 }}
+              viewport={{ once: true, amount: 0 }}
               className='text-zinc-50 font-montserrat font-semibold text-2xl'
             >
               {t('about', 'block3_title')}
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true, amount: 0.4 }}
+              viewport={{ once: true, amount: 0 }}
               className='text-zinc-300 font-alata text-lg'
             >
               {t('about', 'block3_desc')}
@@ -134,25 +134,25 @@ const About = () => {
           </motion.div>  
           <motion.div
             initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-            viewport={{ once: true, amount: 0.4 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true, amount: 0 }}
             className="flex justify-center flex-col gap-4"
           >
             <motion.h2
               initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true, amount: 0.4 }}
+              viewport={{ once: true, amount: 0 }}
               className='text-zinc-50 font-montserrat font-semibold text-2xl'
             >
               {t('about', 'block4_title')}
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true, amount: 0.4 }}
+              viewport={{ once: true, amount: 0 }}
               className='text-zinc-300 font-alata text-lg'
             >
               {t('about', 'block4_desc')}

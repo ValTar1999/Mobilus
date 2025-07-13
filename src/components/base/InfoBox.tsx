@@ -8,9 +8,9 @@ const InfoBox = () => {
     <div className="container mx-auto max-w-screen-2xl px-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-4 my-10 xl:my-20">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0 }}
-        viewport={{ once: true, amount: 0.4 }}
+        viewport={{ once: true, amount: 0 }}
         className="flex flex-col sm:items-center"
       >
         <span className='text-zinc-50 text-3xl font-bold font-montserrat'>{yers} {t('infobox', 'years')}</span>
@@ -18,9 +18,9 @@ const InfoBox = () => {
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.3 }}
-        viewport={{ once: true, amount: 0.4 }}
+        viewport={{ once: true, amount: 0 }}
         className="flex flex-col sm:items-center"
       >
         <span className='text-zinc-50 text-3xl font-bold font-montserrat'>10 {t('infobox', 'pro')}</span>
@@ -28,9 +28,9 @@ const InfoBox = () => {
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.6 }}
-        viewport={{ once: true, amount: 0.4 }}
+        viewport={{ once: true, amount: 0 }}
         className="flex flex-col sm:items-center"
       >
         <span className='text-zinc-50 text-3xl font-bold font-montserrat'>150+</span>

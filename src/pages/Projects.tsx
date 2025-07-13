@@ -33,9 +33,9 @@ const ProjectsPage = () => {
           <motion.div
             key={idx}
             initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.3 + idx * 0.15 }}
-            viewport={{ once: true, amount: 0.4 }}
+            viewport={{ once: true, amount: 0 }}
           >
             <Link to={`/project/${idx + 1}`} className='group'>
               <div className="px-4 md:px-6 pb-3 font-medium flex md:flex-col md:items-start items-end justify-between gap-2">
