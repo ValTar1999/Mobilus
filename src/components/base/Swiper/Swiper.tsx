@@ -58,8 +58,6 @@ const SwiperComponent = () => {
       loop={true}
       navigation={false}
       pagination={false}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
     >
       {images.map((image, index) => (
         <SwiperSlide key={index}>
