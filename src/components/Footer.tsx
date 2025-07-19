@@ -1,4 +1,4 @@
-import Logo from '../images/mobilus-white.png';
+import Logo from '../images/mobilus-white.svg';
 import { useLanguage } from '../context/LanguageContext';
 
 const Footer = () => {
