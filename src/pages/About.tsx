@@ -1,5 +1,5 @@
-import VideoCP from '../video/Consultation-and-proecting.mp4'
-import VideoP from '../video/Inplemintation.mp4'
+import VideoCP from '../../public/video/Consultation-and-proecting.mp4'
+import VideoP from '../../public/video/Inplemintation.mp4'
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'framer-motion';
 
