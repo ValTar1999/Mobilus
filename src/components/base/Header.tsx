@@ -1,4 +1,4 @@
-// import Bgimg from '../../images/home/photo_2025-06-23_18-00-58.jpg';
+import Bgimg from '../../images/home/photo_2025-06-23_18-00-58.jpg';
 import Bgvideo from '../../video/Home-page-bg.mp4';
 import { useLanguage } from '../../context/LanguageContext';
 import { motion } from 'framer-motion';
@@ -7,7 +7,7 @@ const Header = () => {
   const { t } = useLanguage();
   return (
     <div className="relative h-screen">
-      <video preload="auto" autoPlay muted loop className='w-full h-dvh brightness-50 object-cover'>
+      <video poster={Bgimg} preload="auto" autoPlay muted loop className='w-full h-dvh brightness-50 object-cover'>
         <source src={Bgvideo} type="video/mp4" />
       </video>
       {/* <img src={Bgimg} alt="Bg-img" className='w-full h-dvh brightness-50 object-cover'/> */}
