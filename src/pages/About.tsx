@@ -1,5 +1,5 @@
-import VideoCP from '../../public/video/Consultation-and-proecting.mp4'
-import VideoP from '../../public/video/Inplemintation.mp4'
+// import VideoCP from '../../public/video/Consultation-and-proecting.mp4'
+// import VideoP from '../../public/video/Inplemintation.mp4'
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'framer-motion';
 
@@ -55,13 +55,13 @@ const About = () => {
             </motion.p>
           </motion.div>
           <video className='w-full h-full object-cover' autoPlay loop muted preload="auto">
-            <source src={VideoCP} type="video/mp4" />
+            <source src='public/video/Consultation-and-proecting.mp4' type="video/mp4" />
           </video>
         </div>
 
         <div className="grid md:grid-cols-2 gap-10">
           <video className='w-[500px] object-cover h-[750px]' autoPlay loop muted preload="auto">
-            <source src={VideoP} type="video/mp4" />
+            <source src='public/video/Inplemintation.mp4' type="video/mp4" />
           </video>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
