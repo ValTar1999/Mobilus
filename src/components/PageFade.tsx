@@ -12,6 +12,7 @@ const PageFade: React.FC<Props> = ({ children, trigger }) => {
   useEffect(() => {
     setShow(false); // запускаем fade out
     const timeout = setTimeout(() => {
+      window.scrollTo(0, 0); // Прокрутка к верху после fade out
       setDisplayChildren(children); // меняем контент после fade out
       setShow(true); // запускаем fade in
     }, 600); // время fade out

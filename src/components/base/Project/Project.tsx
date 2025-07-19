@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Projects } from '../../../data/data';
 import { useLanguage } from '../../../context/LanguageContext';
@@ -25,10 +24,6 @@ const getLang = (val: LangString, lang: 'ro' | 'ru') => typeof val === 'object' 
 const getLangArr = (val: LangStringArr, lang: 'ro' | 'ru') => Array.isArray(val) ? val : val[lang];
 
 const ProjectDetail = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   const { id } = useParams();
   const { language, t } = useLanguage();
   const projectIdx = id ? parseInt(id as string, 10) - 1 : -1;
