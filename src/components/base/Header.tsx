@@ -7,7 +7,7 @@ const Header = () => {
   const { t } = useLanguage();
   return (
     <div className="relative h-screen">
-      <video autoPlay muted loop className='w-full h-dvh brightness-50 object-cover'>
+      <video preload="auto" autoPlay muted loop className='w-full h-dvh brightness-50 object-cover'>
         <source src={Bgvideo} type="video/mp4" />
       </video>
       {/* <img src={Bgimg} alt="Bg-img" className='w-full h-dvh brightness-50 object-cover'/> */}
