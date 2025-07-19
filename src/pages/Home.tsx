@@ -5,7 +5,7 @@ import InfoBox from '../components/base/InfoBox';
 import VideoBlock from '../components/base/VideoBlock';
 
 // Video
-import video from '../video/7484774-hd_4096_2160_25fps.mp4'
+import video from '../video/Home-page-video.mp4'
 
 const Home = () => (
   <div className='relative overflow-hidden'>

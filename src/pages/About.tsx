@@ -1,5 +1,5 @@
-import VideoCP from '../video/5384977-uhd_4096_2160_30fps.mp4'
-import VideoP from '../video/7484285-uhd_2160_4096_25fps.mp4'
+import VideoCP from '../video/Consultation-and-proecting.mp4'
+import VideoP from '../video/Inplemintation.mp4'
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'framer-motion';
 
