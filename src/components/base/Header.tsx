@@ -7,7 +7,9 @@ const Header = () => {
   const { t } = useLanguage();
   return (
     <div className="relative h-screen">
-      <video autoPlay muted loop src={Bgvideo} className='w-full h-dvh brightness-50 object-cover'></video>
+      <video autoPlay muted loop className='w-full h-dvh brightness-50 object-cover'>
+        <source src={Bgvideo} type="video/mp4" />
+      </video>
       {/* <img src={Bgimg} alt="Bg-img" className='w-full h-dvh brightness-50 object-cover'/> */}
       <div className="absolute bottom-20 xl:bottom-40 flex md:items-center justify-center flex-col mx-auto w-full gap-4 px-4">
         <motion.h1

@@ -54,11 +54,15 @@ const About = () => {
               {t('about', 'block1_desc')}
             </motion.p>
           </motion.div>
-          <video className='w-full h-full object-cover' autoPlay loop muted src={VideoCP}></video>
+          <video className='w-full h-full object-cover' autoPlay loop muted>
+            <source src={VideoCP} type="video/mp4" />
+          </video>
         </div>
 
         <div className="grid md:grid-cols-2 gap-10">
-          <video className='w-[500px] object-cover h-[750px]' autoPlay loop muted src={VideoP}></video>
+          <video className='w-[500px] object-cover h-[750px]' autoPlay loop muted>
+            <source src={VideoP} type="video/mp4" />
+          </video>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
