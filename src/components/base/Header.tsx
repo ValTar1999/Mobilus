@@ -1,5 +1,5 @@
 // import Bgimg from '../../images/home/photo_2025-06-23_18-00-58.jpg';
-import Bgvideo from 'video/Home-page-bg.mp4';
+import Bgvideo from '../../../public/video/Home-page-bg.mp4';
 import { useLanguage } from '../../context/LanguageContext';
 import { motion } from 'framer-motion';
 
