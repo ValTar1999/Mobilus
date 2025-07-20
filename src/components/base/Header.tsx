@@ -1,6 +1,4 @@
-// import Bgimg from '../../images/home/photo_2025-06-23_18-00-58.jpg';
-// import Bgvideo from '../../../public/video/Home-page-bg.mp4';
-import Bgvideo2 from '../../../public/video/bg-video-2.mp4';
+import Bgimg from '../../../public/video/Home-page-bg - frame at 0m0s.jpg';
 import { useLanguage } from '../../context/LanguageContext';
 import { motion } from 'framer-motion';
 
@@ -17,12 +15,11 @@ const Header = () => {
         loop
         playsInline
         className="w-full h-dvh brightness-50 object-cover"
+        poster={Bgimg}
       >
-        <source src={Bgvideo2} type="video/mp4" />
-        <source src={`${import.meta.env.BASE_URL}video/bg-video-2.mp4`} type="video/mp4" />
+        <source src={`${import.meta.env.BASE_URL}video/Home-page-bg.mp4`} type="video/mp4" />
 
       </video>
-      {/* <img src={Bgimg} alt="Bg-img" className='w-full h-dvh brightness-50 object-cover'/> */}
       <div className="absolute bottom-20 xl:bottom-40 flex md:items-center justify-center flex-col mx-auto w-full gap-4 px-4">
         <motion.h1
           initial={{ opacity: 0, y: 30 }}

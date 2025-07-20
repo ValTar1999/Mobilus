@@ -6,12 +6,13 @@ import VideoBlock from '../components/base/VideoBlock';
 
 // Video
 import video from '../../public/video/Home-page-video.mp4'
+import postervideo from '../../public/video/Home-page-video - frame at 0m0s.jpg'
 
 const Home = () => (
   <div className='relative overflow-hidden'>
     <Header/>
     <Project/>
-    <VideoBlock src={video}/>
+    <VideoBlock poster={postervideo} src={video}/>
     <InfoBox/>
     <Swiper/>
   </div>

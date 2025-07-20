@@ -1,5 +1,7 @@
 import VideoCP from '../../public/video/Consultation-and-proecting.mp4'
+import VideoCPImg from '../../public/video/Consultation-and-proecting - frame at 0m0s.jpg'
 import VideoP from '../../public/video/Inplemintation.mp4'
+import VideoPImg from '../../public/video/Inplemintation - frame at 0m0s.jpg'
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'framer-motion';
 
@@ -54,13 +56,13 @@ const About = () => {
               {t('about', 'block1_desc')}
             </motion.p>
           </motion.div>
-          <video className='w-full h-full object-cover' autoPlay loop muted preload="auto">
+          <video className='w-full h-full object-cover' poster={VideoCPImg} autoPlay loop muted preload="auto">
             <source src={VideoCP} type="video/mp4" />
           </video>
         </div>
 
         <div className="grid md:grid-cols-2 gap-10">
-          <video className='w-[500px] object-cover h-[750px]' autoPlay loop muted preload="auto">
+          <video className='w-[500px] object-cover h-[750px]' poster={VideoPImg} autoPlay loop muted preload="auto">
             <source src={VideoP} type="video/mp4" />
           </video>
           <motion.div

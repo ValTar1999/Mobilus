@@ -39,6 +39,25 @@ import P6img4 from '../images/projects/project-6/6e55ae9acf4c52edccf889cf07b5e67
 import P6img5 from '../images/projects/project-6/90eabb80415ad22de5d48fe100567829.jpg'
 import P6img6 from '../images/projects/project-6/cc963372d0a3a788a4bebe46c743a926.jpg'
 
+// Img Project 7
+import P7img1 from '../images/projects/project-7/photo_10_2025-07-20_13-48-36-Photoroom.png'
+import P7img2 from '../images/projects/project-7/photo_11_2025-07-20_13-48-36.jpg'
+import P7img3 from '../images/projects/project-7/photo_14_2025-07-20_13-48-36.jpg'
+import P7img4 from '../images/projects/project-7/photo_15_2025-07-20_13-48-36.jpg'
+import P7img5 from '../images/projects/project-7/photo_16_2025-07-20_13-48-36.jpg'
+import P7img6 from '../images/projects/project-7/photo_17_2025-07-20_13-48-36.jpg'
+import P7img7 from '../images/projects/project-7/photo_20_2025-07-20_13-48-36.jpg'
+import P7img8 from '../images/projects/project-7/photo_8_2025-07-20_13-48-36.jpg'
+import P7img9 from '../images/projects/project-7/photo_9_2025-07-20_13-48-36.jpg'
+
+// Img Project 8
+import P8img1 from '../images/projects/project-8/photo_1_2025-07-20_13-48-36.jpg'
+import P8img2 from '../images/projects/project-8/photo_2_2025-07-20_13-48-36.jpg'
+import P8img3 from '../images/projects/project-8/photo_3_2025-07-20_13-48-36-Photoroom.png'
+import P8img5 from '../images/projects/project-8/photo_5_2025-07-20_13-48-36.jpg'
+import P8img6 from '../images/projects/project-8/photo_6_2025-07-20_13-48-36.jpg'
+import P8img7 from '../images/projects/project-8/photo_7_2025-07-20_13-48-36.jpg'
+
 export const Projects = [
   {
     name: { ro: 'Project_1', ru: 'Проект_1' },
@@ -255,5 +274,81 @@ export const Projects = [
         imgs: [P6img6]
       }
     ]
-  }
+  },
+  {
+    name: { ro: 'Project_7', ru: 'Проект_7' },
+    yers: '2025',
+    city: { ro: 'Chișinău', ru: 'Кишинёв' },
+    m2: 70,
+    description: {
+      ro: [
+        'În acest proiect am realizat mobilier la comandă pentru întreaga locuință: bucătărie, antreu, baie și dormitor, cu un design coerent și aerisit, construit în jurul unor tonuri calde și finisaje elegante.',
+        'Materialele utilizate includ pal DSP bej, care oferă luminozitate și căldură. În bucătărie a fost integrat un blat, ales pentru rezistență și estetică. Mobilierul este completat cu fațade din sticlă, iar în zona de antreu — fațade cu oglindă, care contribuie la senzația de spațiu și eleganță.',
+        'Proiectul include mânere profil din aluminiu, bandă LED pentru iluminare funcțională și decorativă, precum și furnitură Blum, recunoscută pentru fiabilitate și confort în utilizare.',
+        'Rezultatul este un interior armonios, modern și bine organizat, care combină materiale de calitate cu un design atent gândit, adaptat perfect stilului de viață al clientului.'
+      ],
+      ru: [
+        'В этом проекте мы изготовили мебель на заказ для всей квартиры: кухни, прихожей, ванной и спальни с цельным и легким дизайном, построенным вокруг теплых тонов и элегантных отделок.',
+        'Использованные материалы включают бежевый DSP, который придаёт свет и тепло. На кухне была интегрирована столешница, выбранная за прочность и эстетику. Мебель дополнена стеклянными фасадами, а в прихожей — фасадами с зеркалом, что добавляет ощущение пространства и элегантности.',
+        'Проект включает алюминиевые профильные ручки, светодиодную ленту для функциональной и декоративной подсветки, а также фурнитуру Blum, известную своей надёжностью и комфортом в использовании.',
+        'В результате получился гармоничный, современный и хорошо организованный интерьер, сочетающий качественные материалы с продуманным дизайном, идеально подходящий для образа жизни клиента.'
+      ]
+    },
+    rooms: [
+      {
+        title: { ro: 'Bucatarie', ru: 'Кухня' },
+        imgs: [P7img9, P7img8]
+      },
+      {
+        title: { ro: 'Dormitor', ru: 'Спальня' },
+        imgs: [P7img1, P7img2, P7img3]
+      },
+      {
+        title: { ro: 'Antreu', ru: 'Прихожая' },
+        imgs: [P7img6, P7img7]
+      },
+      {
+        title: { ro: 'Baie', ru: 'Ванная' },
+        imgs: [P7img4, P7img5]
+      }
+    ]
+  },
+  {
+    name: { ro: 'Project_8', ru: 'Проект_8' },
+    yers: '2025',
+    city: { ro: 'Chișinău', ru: 'Кишинёв' },
+    m2: 55,
+    description: {
+      ro: [
+        'În acest proiect am realizat mobilier la comandă pentru întreaga locuință: bucătărie, antreu, baie și dormitor, cu un design coerent și aerisit, construit în jurul unor tonuri calde și finisaje elegante.',
+        'Pentru majoritatea spațiilor s-a folosit PAL DSP gri, care oferă luminozitate și rafinament, iar în bucătărie — MDF verde și MDF furniruit, ce adaugă contrast, textură naturală și eleganță. Mobilierul este completat cu fațade din sticlă, iar în zona de antreu — fațade cu oglindă, care contribuie la senzația de spațiu și stil.',
+        'Proiectul include mânere profil din aluminiu, bandă LED pentru iluminare funcțională și decorativă, precum și furnitură Blum, recunoscută pentru fiabilitate și confort în utilizare.',
+        'Rezultatul este un interior armonios, modern și bine organizat, care combină materiale de calitate cu un design atent gândit, adaptat perfect stilului de viață al clientului.'
+      ],
+      ru: [
+        'В этом проекте мы изготовили мебель на заказ для всей квартиры: кухни, прихожей, ванной и спальни с цельным и лёгким дизайном, построенным вокруг тёплых тонов и элегантных отделок.',
+        'В большинстве помещений использован серый DSP, который придаёт свет, сдержанность и утончённость, а для кухни — зелёный МДФ и шпонированный МДФ, добавляющие контраст, натуральную текстуру и изысканность. Мебель дополнена стеклянными фасадами, а в прихожей — фасадами с зеркалом, что усиливает ощущение пространства и элегантности.',
+        'Проект включает алюминиевые профильные ручки, светодиодную ленту для функциональной и декоративной подсветки, а также фурнитуру Blum, известную своей надёжностью и комфортом в использовании.',
+        'В результате получился гармоничный, современный и хорошо организованный интерьер, сочетающий качественные материалы с продуманным дизайном, идеально подходящий для образа жизни клиента.'
+      ]
+    },
+    rooms: [
+      {
+        title: { ro: 'Bucatarie', ru: 'Кухня' },
+        imgs: [P8img7, P8img5]
+      },
+      {
+        title: { ro: 'Dormitor', ru: 'Спальня' },
+        imgs: [P8img1, P8img2]
+      },
+      {
+        title: { ro: 'Antreu', ru: 'Прихожая' },
+        imgs: [P8img6]
+      },
+      {
+        title: { ro: 'Baie', ru: 'Ванная' },
+        imgs: [P8img3]
+      }
+    ]
+  },
 ];
