@@ -25,7 +25,7 @@ const Project = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.5 }}
           viewport={{ once: true, amount: 0 }}
-          className="grid grid-cols-2 gap-5 lg:gap-10"
+          className="grid grid-cols-2 gap-5"
         >
           {Projects.slice(0, 4).map((project, idx) => (
             <Link to={`/project/${idx + 1}`} className='relative group border border-transparent hover:border-zinc-900 transition-all duration-500' key={idx}>
