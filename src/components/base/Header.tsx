@@ -17,7 +17,8 @@ const Header = () => {
         className="w-full h-dvh brightness-50 object-cover"
         poster={Bgimg}
       >
-        <source src={`${import.meta.env.BASE_URL}video/Home-page-bg.mp4`} type="video/mp4" />
+        {/* <source src={`${import.meta.env.BASE_URL}video/Home-page-bg.mp4`} type="video/mp4" /> */}
+        <source src='https://885542.fs1.hubspotusercontent-na1.net/hubfs/885542/Home-page-bg.mp4' type="video/mp4" />
 
       </video>
       <div className="absolute bottom-20 xl:bottom-40 flex md:items-center justify-center flex-col mx-auto w-full gap-4 px-4">
