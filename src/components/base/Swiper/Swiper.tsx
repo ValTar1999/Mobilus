@@ -39,7 +39,7 @@ const SwiperComponent = () => {
       className='bg-zinc-50 my-10'
       modules={[Autoplay]}
       spaceBetween={20}
-      slidesPerView={3}
+      slidesPerView={1}
       autoplay={{
         delay: 2000,
         disableOnInteraction: false,

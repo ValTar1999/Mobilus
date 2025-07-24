@@ -1,6 +1,4 @@
-import VideoCP from '../../public/video/Consultation-and-proecting.mp4'
 import VideoCPImg from '../../public/video/Consultation-and-proecting - frame at 0m0s.jpg'
-import VideoP from '../../public/video/Inplemintation.mp4'
 import VideoPImg from '../../public/video/Inplemintation - frame at 0m0s.jpg'
 import { useLanguage } from '../context/LanguageContext';
 import { motion } from 'framer-motion';
@@ -57,13 +55,13 @@ const About = () => {
             </motion.p>
           </motion.div>
           <video className='w-full h-full object-cover' poster={VideoCPImg} autoPlay loop muted preload="auto">
-            <source src={VideoCP} type="video/mp4" />
+            <source src="https://885542.fs1.hubspotusercontent-na1.net/hubfs/885542/Consultation-and-proecting.mp4" type="video/mp4" />
           </video>
         </div>
 
         <div className="grid md:grid-cols-2 gap-10">
           <video className='w-[500px] object-cover h-[750px]' poster={VideoPImg} autoPlay loop muted preload="auto">
-            <source src={VideoP} type="video/mp4" />
+            <source src="https://885542.fs1.hubspotusercontent-na1.net/hubfs/885542/Inplemintation.mp4" type="video/mp4" />
           </video>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
