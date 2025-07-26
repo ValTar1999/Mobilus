@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-5">
             <div className="flex flex-col space-y-2 text-sm">
               <span className='text-zinc-300 font-medium font-alata'>{t('footer', 'contact')}</span>
-              <a className='text-base font-montserrat font-medium' target='_blank' href="+37360408481">+37360408481</a>
+              <a className='text-base font-montserrat font-medium' href="tel:+37360408481">+37360408481</a>
             </div>
             <div className="flex flex-col space-y-2">
               <span className='text-zinc-300 font-medium text-sm'>{t('footer', 'social')}</span>          
@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col space-y-2">
               <span className='text-zinc-300 font-medium text-sm font-alata'>{t('footer', 'email')}</span>
-              <a className='text-zinc-50 text-base font-montserrat font-medium' target='_blank' href="Mobilus@gamil.com">Mobilus@gamil.com</a>
+              <a className='text-zinc-50 text-base font-montserrat font-medium' href="mailto:Mobilus@gmail.com">Mobilus@gmail.com</a>
             </div>
           </div>
         </div>
