@@ -12,19 +12,19 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-5">
             <div className="flex flex-col space-y-2 text-sm">
               <span className='text-zinc-300 font-medium font-alata'>{t('footer', 'contact')}</span>
-              <a className='text-base font-montserrat font-medium' target='_blank' href="+37379779557">+37379779557</a>
+              <a className='text-base font-montserrat font-medium' target='_blank' href="+37360408481">+37360408481</a>
             </div>
             <div className="flex flex-col space-y-2">
               <span className='text-zinc-300 font-medium text-sm'>{t('footer', 'social')}</span>          
               <div className="flex items-center space-x-4">
-                <a className='rounded-full bg-white hover:bg-zinc-200 text-zinc-900 transition-colors duration-500 px-4 py-1 text-sm leading-snug' href="" target='_blank'>Telegram</a>
-                <a className='rounded-full bg-white hover:bg-zinc-200 text-zinc-900 transition-colors duration-500 px-4 py-1 text-sm leading-snug' href="" target='_blank'>Viber</a>
-                <a className='rounded-full bg-white hover:bg-zinc-200 text-zinc-900 transition-colors duration-500 px-4 py-1 text-sm leading-snug' href="" target='_blank'>WhatsApp</a>
+                <a className='rounded-full bg-white hover:bg-zinc-200 text-zinc-900 transition-colors duration-500 px-4 py-1 text-sm leading-snug' href="https://t.me/+37360408481" target='_blank'>Telegram</a>
+                <a className='rounded-full bg-white hover:bg-zinc-200 text-zinc-900 transition-colors duration-500 px-4 py-1 text-sm leading-snug' href="viber://chat?number=+37360408481" target='_blank'>Viber</a>
+                <a className='rounded-full bg-white hover:bg-zinc-200 text-zinc-900 transition-colors duration-500 px-4 py-1 text-sm leading-snug' href="https://wa.me/37360408481" target='_blank'>WhatsApp</a>
               </div>
             </div>
             <div className="flex flex-col space-y-2">
               <span className='text-zinc-300 font-medium text-sm font-alata'>{t('footer', 'email')}</span>
-              <a className='text-zinc-50 text-base font-montserrat font-medium' target='_blank' href="www.vladtarna25@gamil.com">www.vladtarna25@gamil.com</a>
+              <a className='text-zinc-50 text-base font-montserrat font-medium' target='_blank' href="Mobilus@gamil.com">Mobilus@gamil.com</a>
             </div>
           </div>
         </div>
