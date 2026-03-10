@@ -10,8 +10,7 @@ export default {
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
-        alata: ["Alata", "sans-serif"],
-        gabarito: ["Gabarito", "sans-serif"],
+        'dm-sans': ["DM Sans", "sans-serif"],
       },
     },
   },

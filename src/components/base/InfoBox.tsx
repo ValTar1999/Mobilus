@@ -14,7 +14,7 @@ const InfoBox = () => {
         className="flex flex-col sm:items-center"
       >
         <span className='text-zinc-50 text-3xl font-bold font-montserrat'>{yers} {t('infobox', 'years')}</span>
-        <span className='text-zinc-300 text-sm font-medium font-alata'>{t('infobox', 'founded')}</span> 
+        <span className='text-zinc-300 text-sm font-medium font-dm-sans'>{t('infobox', 'founded')}</span> 
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -24,7 +24,7 @@ const InfoBox = () => {
         className="flex flex-col sm:items-center"
       >
         <span className='text-zinc-50 text-3xl font-bold font-montserrat'>10 {t('infobox', 'pro')}</span>
-        <span className='text-zinc-300 text-sm font-medium font-alata'>{t('infobox', 'pro_desc')}</span> 
+        <span className='text-zinc-300 text-sm font-medium font-dm-sans'>{t('infobox', 'pro_desc')}</span> 
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -34,7 +34,7 @@ const InfoBox = () => {
         className="flex flex-col sm:items-center"
       >
         <span className='text-zinc-50 text-3xl font-bold font-montserrat'>150+</span>
-        <span className='text-zinc-300 text-sm font-medium font-alata'>{t('infobox', 'projects')}</span> 
+        <span className='text-zinc-300 text-sm font-medium font-dm-sans'>{t('infobox', 'projects')}</span> 
       </motion.div>
     </div>
   );

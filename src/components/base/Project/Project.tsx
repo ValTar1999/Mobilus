@@ -149,7 +149,7 @@ const ProjectDetail = () => {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }}
         >
           {getLangArr(project.description, language).map((desc: string, idx: number) => (
-            <p key={idx} className='text-base md:text-xl text-zinc-300 mb-4 font-alata'>{desc}</p>
+            <p key={idx} className='text-base md:text-xl text-zinc-300 mb-4 font-dm-sans'>{desc}</p>
           ))}
         </motion.div>
       </div>
@@ -162,7 +162,7 @@ const ProjectDetail = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
               viewport={{ once: true, amount: 0 }}
-              className="text-3xl md:text-5xl font-medium font-montserrat text-zinc-50 sticky top-16 z-10"
+              className="text-3xl md:text-5xl font-medium font-montserrat text-zinc-50 sticky top-20 z-10"
             >
               {getLang(room.title, language)}
             </motion.div>

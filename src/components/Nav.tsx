@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useLanguage } from "../context/LanguageContext";
+import Logo from '../images/master-mobilus-dark.svg';
 
 const Nav: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,28 +18,30 @@ const Nav: React.FC = () => {
 
   return (
     <nav className="sticky top-0 z-50 bg-black border-b border-zinc-800">
-      <div className="p-4 flex justify-between lg:grid lg:grid-cols-3 items-center container mx-auto max-w-screen-2xl">
+      <div className="px-4 py-3 flex justify-between lg:grid lg:grid-cols-3 items-center container mx-auto max-w-screen-2xl">
         {/* Desktop menu */}
         <div className="hidden md:flex space-x-8">
-          <Link to="/" className="text-base text-zinc-50 hover:text-zinc-300 transition-colors duration-300 font-medium font-montserrat">{t('nav', 'home')}</Link>
-          <Link to="/about" className="text-base text-zinc-50 hover:text-zinc-300 transition-colors duration-300 font-medium font-montserrat">{t('nav', 'about')}</Link>
-          <Link to="/projects" className="text-base text-zinc-50 hover:text-zinc-300 transition-colors duration-300 font-medium font-montserrat">{t('nav', 'projects')}</Link>
+          <Link to="/" className="text-base text-zinc-50 hover:text-zinc-300 transition-colors duration-300 font-medium font-dm-sans">{t('nav', 'home')}</Link>
+          <Link to="/about" className="text-base text-zinc-50 hover:text-zinc-300 transition-colors duration-300 font-medium font-dm-sans">{t('nav', 'about')}</Link>
+          <Link to="/projects" className="text-base text-zinc-50 hover:text-zinc-300 transition-colors duration-300 font-medium font-dm-sans">{t('nav', 'projects')}</Link>
         </div>
         {/* Logo always visible */}
         <div className="inline-flex md:mx-auto justify-start md:justify-center col-span-1">
-          <Link to="/" className="text-lg text-white font-montserrat font-medium">Mobilus</Link>
+          <Link to="/">
+          <img className='w-auto h-12' src={Logo} alt="Logo"/> 
+          </Link>
         </div>
         {/* Language switcher */}
         <div className="flex items-center lg:justify-end gap-2">
           <button
-            className={`text-zinc-50 hover:text-zinc-300 active:text-zinc-500 text-base font-montserrat font-medium transition-colors duration-300 ${language === "ro" ? "underline" : ""}`}
+            className={`text-zinc-50 hover:text-zinc-300 active:text-zinc-500 text-base font-dm-sans font-medium transition-colors duration-300 ${language === "ro" ? "underline" : ""}`}
             onClick={() => setLanguage("ro")}
           >
             RO
           </button>
           <hr className="w-px h-5 bg-zinc-50" />
           <button
-            className={`text-zinc-50 hover:text-zinc-300 active:text-zinc-500 text-base font-montserrat font-medium transition-colors duration-300 ${language === "ru" ? "underline" : ""}`}
+            className={`text-zinc-50 hover:text-zinc-300 active:text-zinc-500 text-base font-dm-sans font-medium transition-colors duration-300 ${language === "ru" ? "underline" : ""}`}
             onClick={() => setLanguage("ru")}
           >
             RU

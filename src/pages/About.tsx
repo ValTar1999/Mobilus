@@ -21,7 +21,7 @@ const About = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.7 }}
-          className='text-zinc-300 font-alata text-base lg:text-xl'
+          className='text-zinc-300 font-dm-sans text-base lg:text-xl'
         >
           {t('about', 'block1_desc')}
         </motion.span>
@@ -49,7 +49,7 @@ const About = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
               viewport={{ once: true, amount: 0 }}
-              className='text-zinc-300 font-alata text-lg'
+              className='text-zinc-300 font-dm-sans text-lg'
             >
               {t('about', 'block1_desc')}
             </motion.p>
@@ -84,7 +84,7 @@ const About = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
               viewport={{ once: true, amount: 0 }}
-              className='text-zinc-300 font-alata text-lg'
+              className='text-zinc-300 font-dm-sans text-lg'
             >
               {t('about', 'block2_desc')}
             </motion.p>
@@ -93,7 +93,7 @@ const About = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
               viewport={{ once: true, amount: 0 }}
-              className='text-zinc-300 list-disc ml-4 text-base font-alata'
+              className='text-zinc-300 list-disc ml-4 text-base font-dm-sans'
             >
               {block2List.map((item, idx) => <li key={idx}>{item}</li>)}
             </motion.ul>
@@ -102,7 +102,7 @@ const About = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
               viewport={{ once: true, amount: 0 }}
-              className='text-zinc-300 font-alata text-lg'
+              className='text-zinc-300 font-dm-sans text-lg'
             >
               {t('about', 'block2_desc2')}
             </motion.p>
@@ -131,7 +131,7 @@ const About = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
               viewport={{ once: true, amount: 0 }}
-              className='text-zinc-300 font-alata text-lg'
+              className='text-zinc-300 font-dm-sans text-lg'
             >
               {t('about', 'block3_desc')}
             </motion.p>
@@ -157,7 +157,7 @@ const About = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
               viewport={{ once: true, amount: 0 }}
-              className='text-zinc-300 font-alata text-lg'
+              className='text-zinc-300 font-dm-sans text-lg'
             >
               {t('about', 'block4_desc')}
             </motion.p>

@@ -1,4 +1,4 @@
-import Logo from '../images/mobilus-white.svg';
+import Logo from '../images/master-mobilus-dark.svg';
 import { useLanguage } from '../context/LanguageContext';
 
 const Footer = () => {
@@ -8,11 +8,11 @@ const Footer = () => {
     <div id='footer' className="border-t border-zinc-800">
       <div className="container max-w-screen-2xl mx-auto px-4 pt-5 pb-10 flex flex-col justify-center w-full gap-10 xl:gap-20">
         <div className="text-zinc-50 flex flex-col lg:flex-row md:items-center justify-between gap-2 xl:gap-10">
-          <img className='w-32 h-32' src={Logo} alt="Logo"/> 
+          <img className='w-auto h-18' src={Logo} alt="Logo"/> 
           <div className="flex flex-col md:flex-row md:items-center justify-between w-full gap-5">
             <div className="flex flex-col space-y-2 text-sm">
-              <span className='text-zinc-300 font-medium font-alata'>{t('footer', 'contact')}</span>
-              <a className='text-base font-montserrat font-medium' href="tel:+37360408481">+37360408481</a>
+              <span className='text-zinc-300 font-medium font-dm-sans'>{t('footer', 'contact')}</span>
+              <a className='text-base font-dm-sans font-medium' href="tel:+37362172866">+37362172866</a>
             </div>
             <div className="flex flex-col space-y-2">
               <span className='text-zinc-300 font-medium text-sm'>{t('footer', 'social')}</span>          
@@ -23,12 +23,12 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex flex-col space-y-2">
-              <span className='text-zinc-300 font-medium text-sm font-alata'>{t('footer', 'email')}</span>
-              <a className='text-zinc-50 text-base font-montserrat font-medium' href="mailto:Mobilus@gmail.com">Mobilus@gmail.com</a>
+              <span className='text-zinc-300 font-medium text-sm font-dm-sans'>{t('footer', 'email')}</span>
+              <a className='text-zinc-50 text-base font-dm-sans font-medium' href="mailto:mastermobilus99@gmail.com">mastermobilus99@gmail.com</a>
             </div>
           </div>
         </div>
-        <div className="md:mx-auto text-xs text-zinc-400 font-montserrat">©Mobilus 2016-{yearNow}</div>
+        <div className="md:mx-auto text-xs text-zinc-400 font-dm-sans">©Master Mobilus 2016-{yearNow}</div>
       </div>
     </div>
   );

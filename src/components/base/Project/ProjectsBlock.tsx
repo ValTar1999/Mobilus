@@ -16,7 +16,7 @@ const Project = () => {
           className="flex flex-col justify-center lg:max-w-lg"
         >
           <h2 className='text-4xl lg:text-5xl text-zinc-50 font-bold font-montserrat'>{t('projectsBlock', 'title')}</h2>
-          <span className='py-5 lg:py-10 text-zinc-300 text-xl font-gabarito'>
+          <span className='py-5 lg:py-10 text-zinc-300 text-xl font-dm-sans'>
             {t('projectsBlock', 'desc')}
           </span>
         </motion.div>

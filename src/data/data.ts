@@ -58,6 +58,36 @@ import P8img5 from '../images/projects/project-8/photo_5_2025-07-20_13-48-36.jpg
 import P8img6 from '../images/projects/project-8/photo_6_2025-07-20_13-48-36.jpg'
 import P8img7 from '../images/projects/project-8/photo_7_2025-07-20_13-48-36.jpg'
 
+// Img Project 9
+import P9img1 from '../images/projects/project-9/photo_13_2026-03-08_21-46-40.jpg'
+import P9img2 from '../images/projects/project-9/photo_14_2026-03-08_21-46-40.jpg'
+import P9img3 from '../images/projects/project-9/photo_1_2026-03-08_21-46-40.jpg'
+import P9img4 from '../images/projects/project-9/photo_8_2026-03-08_21-46-40.jpg'
+import P9img5 from '../images/projects/project-9/photo_9_2026-03-08_21-46-40.jpg'
+import P9img6 from '../images/projects/project-9/photo_4_2026-03-08_21-46-40.jpg'
+import P9img7 from '../images/projects/project-9/photo_5_2026-03-08_21-46-40.jpg'
+import P9img8 from '../images/projects/project-9/photo_6_2026-03-08_21-46-40.jpg'
+import P9img9 from '../images/projects/project-9/photo_16_2026-03-08_21-46-40.jpg'
+import P9img10 from '../images/projects/project-9/photo_11_2026-03-08_21-46-40.jpg'
+import P9img11 from '../images/projects/project-9/photo_12_2026-03-08_21-46-40.jpg'
+import P9img12 from '../images/projects/project-9/photo_15_2026-03-08_21-46-40.jpg'
+import P9img13 from '../images/projects/project-9/photo_2_2026-03-08_21-46-40.jpg'
+import P9img14 from '../images/projects/project-9/photo_3_2026-03-08_21-46-40.jpg'
+
+// Img Project 10
+import P10img1 from '../images/projects/project-10/photo_18_2026-03-08_21-46-40.jpg'
+import P10img2 from '../images/projects/project-10/photo_20_2026-03-08_21-46-40.jpg'
+import P10img3 from '../images/projects/project-10/photo_21_2026-03-08_21-46-40.jpg'
+import P10img4 from '../images/projects/project-10/photo_22_2026-03-08_21-46-40.jpg'
+import P10img5 from '../images/projects/project-10/photo_23_2026-03-08_21-46-40.jpg'
+import P10img6 from '../images/projects/project-10/photo_25_2026-03-08_21-46-40.jpg'
+import P10img7 from '../images/projects/project-10/photo_30_2026-03-08_21-46-40.jpg'
+import P10img8 from '../images/projects/project-10/photo_24_2026-03-08_21-46-40.jpg'
+import P10img9 from '../images/projects/project-10/photo_28_2026-03-08_21-46-40.jpg'
+import P10img10 from '../images/projects/project-10/photo_27_2026-03-08_21-46-40.jpg'
+import P10img11 from '../images/projects/project-10/photo_29_2026-03-08_21-46-40.jpg'
+import P10img12 from '../images/projects/project-10/photo_31_2026-03-08_21-46-40.jpg'
+
 export const Projects = [
   {
     name: { ro: 'Project_1', ru: 'Проект_1' },
@@ -95,6 +125,7 @@ export const Projects = [
       },
     ],
   },
+  // Img Project 2
   {
     name: { ro: 'Project_2', ru: 'Проект_2' },
     yers: '2024',
@@ -129,6 +160,7 @@ export const Projects = [
       }
     ],
   },
+  // Img Project 3
   {
     name: { ro: 'Project_3', ru: 'Проект_3' },
     yers: '2024',
@@ -161,6 +193,7 @@ export const Projects = [
       }
     ]
   },
+  // Img Project 4
   {
     name: { ro: 'Project_4', ru: 'Проект_4' },
     yers: '2024',
@@ -195,6 +228,7 @@ export const Projects = [
       }
     ]
   },
+  // Img Project 5
   {
     name: { ro: 'Project_5', ru: 'Проект_5' },
     yers: '2025',
@@ -233,6 +267,7 @@ export const Projects = [
       }
     ]
   },
+  // Img Project 6
   {
     name: { ro: 'Project_6', ru: 'Проект_6' },
     yers: '2024',
@@ -275,6 +310,7 @@ export const Projects = [
       }
     ]
   },
+  // Img Project 7
   {
     name: { ro: 'Project_7', ru: 'Проект_7' },
     yers: '2025',
@@ -313,6 +349,7 @@ export const Projects = [
       }
     ]
   },
+  // Img Project 8
   {
     name: { ro: 'Project_8', ru: 'Проект_8' },
     yers: '2025',
@@ -351,4 +388,102 @@ export const Projects = [
       }
     ]
   },
+  // Img Project 9
+  {
+    name: { ro: 'Project_9', ru: 'Проект_9' },
+    yers: '2026',
+    city: { ro: 'Chișinău', ru: 'Кишинёв' },
+    m2: 80,
+    description: {
+      ro: [
+        'În acest proiect am realizat mobilier la comandă pentru întreaga locuință: bucătărie, dormitor, antreu, baie, living și balcon, menținând un stil unitar și echilibrat în toate spațiile.',
+        'Pentru mobilier s-au folosit PAL DSP bej, care oferă luminozitate și căldură interiorului, împreună cu PAL DSP cu textură de lemn, ce adaugă un accent natural și o atmosferă confortabilă.',
+        'Mobilierul este completat cu iluminare LED integrată, care creează atât lumină funcțională, cât și un efect decorativ plăcut, evidențiind liniile și materialele folosite.',
+        'Rezultatul este un interior modern, armonios și bine organizat, în care materialele calde și designul atent realizat oferă confort și estetică în fiecare zonă a locuinței.'
+      ],
+      ru: [
+        'В этом проекте мы изготовили мебель на заказ для всей квартиры: кухни, спальни, прихожей, ванной комнаты, гостиной и балкона, сохранив единый стиль и гармонию во всех пространствах.',
+        'Для мебели использован бежевый DSP, который делает интерьер светлым и уютным, а также DSP с текстурой дерева, добавляющий натуральность и тёплый акцент.',
+        'Мебель дополнена встроенной LED-подсветкой, которая выполняет как функциональную, так и декоративную роль, подчёркивая формы и материалы.',
+        'В результате получился современный, гармоничный и хорошо организованный интерьер, в котором тёплые материалы и продуманный дизайн создают комфортную атмосферу во всей квартире.'
+      ]
+    },
+    rooms: [
+      {
+        title: { ro: 'Bucatarie', ru: 'Кухня' },
+        imgs: [P9img1, P9img2]
+      },
+      {
+        title: { ro: 'Dormitor-1', ru: 'Спальня-1' },
+        imgs: [P9img3, P9img4, P9img5]
+      },
+      {
+        title: { ro: 'Dormitor-2', ru: 'Спальня-2' },
+        imgs: [P9img6, P9img7, P9img8]
+      },
+      {
+        title: { ro: 'Antreu', ru: 'Прихожая' },
+        imgs: [P9img9]
+      },
+      {
+        title: { ro: 'Baie', ru: 'Ванная' },
+        imgs: [P9img10]
+      },
+      {
+        title: { ro: 'Living', ru: 'Гостиная' },
+        imgs: [P9img11, P9img12]
+      },
+      {
+        title: { ro: 'Balcon', ru: 'Балкон' },
+        imgs: [P9img13, P9img14]
+      }
+    ]
+  },
+  // Img Project 10
+  {
+    name: { ro: 'Project_10', ru: 'Проект_10' },
+    yers: '2026',
+    city: { ro: 'Cojusna', ru: 'Кожушаны' },
+    m2: 100,
+    description: {
+      ro: [
+        'În acest proiect am realizat mobilier la comandă pentru întreaga locuință: bucătărie, dormitor, antreu, baie, living și balcon, păstrând un design coerent și luminos în toate spațiile.',
+        'Mobilierul este realizat în principal din PAL DSP alb, care oferă un aspect curat, modern și face interiorul mai luminos și aerisit. Accentele din PAL DSP cu textură de lemn adaugă căldură și un contrast natural în design.',
+        'Proiectul este completat cu iluminare LED integrată, care oferă atât lumină funcțională, cât și un efect decorativ subtil, evidențiind liniile mobilierului.',
+        'Rezultatul este un interior modern și elegant, în care predomină simplitatea, luminozitatea și echilibrul dintre suprafețele albe și elementele cu textură de lemn.'
+      ],
+      ru: [
+        'В этом проекте мы изготовили мебель на заказ для всей квартиры: кухни, спальни, прихожей, ванной комнаты, гостиной и балкона, сохранив единый светлый стиль во всех пространствах.',
+        'Основным материалом стал белый DSP, который делает интерьер визуально более просторным, чистым и современным. Акценты из DSP с текстурой дерева добавляют тепла и создают естественный контраст.',
+        'Мебель дополнена встроенной LED-подсветкой, которая выполняет как функциональную, так и декоративную роль, подчёркивая линии и детали мебели.',
+        'В результате получился светлый, современный и гармоничный интерьер, где белые поверхности сочетаются с натуральной текстурой дерева, создавая уютную и стильную атмосферу.'
+      ]
+    },
+    rooms: [
+      {
+        title: { ro: 'Antreu', ru: 'Прихожая' },
+        imgs: [P10img1, P10img7]
+      },
+      {
+        title: { ro: 'Bucatarie', ru: 'Кухня' },
+        imgs: [P10img4, P10img5, P10img6]
+      },
+      {
+        title: { ro: 'Dormitor-1', ru: 'Спальня-1' },
+        imgs: [P10img9, P10img10]
+      },
+      {
+        title: { ro: 'Dormitor-2', ru: 'Спальня-2' },
+        imgs: [P10img11, P10img12]
+      },
+      {
+        title: { ro: 'Baie', ru: 'Ванная' },
+        imgs: [P10img2, P10img3]
+      },
+      {
+        title: { ro: 'Living', ru: 'Гостиная' },
+        imgs: [P10img8]
+      }
+    ]
+  }
 ];

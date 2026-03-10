@@ -22,11 +22,11 @@ const translations = {
       desc: "Fiecare piesă de mobilier creată de noi spune o poveste. Ne implicăm cu pasiune în proiecte diverse – de la amenajări elegante de living și dormitoare, până la spații de lucru optimizate și bucătării funcționale. Fiecare proiect este o provocare pe care o transformăm în soluții personalizate, adaptate nevoilor și stilului fiecărui client."
     },
     projectsPage: {
-      title: "Proiecte Mobilus",
+      title: "Proiecte Master Mobilus",
       desc: "Proiectele noastre reflectă dorințele clienților transformați în mobilier funcțional, estetic și durabil, adaptat perfect fiecărui spațiu."
     },
     about: {
-      title: "Despre Mobilus",
+      title: "Despre Master Mobilus",
       block1_title: "1. Consultanță & Proiectare",
       block1_desc: "Totul începe cu o discuție. Ascultăm dorințele și necesitățile clientului, luăm măsurători și propunem soluții personalizate. Designul este creat ținând cont de stilul interior, ergonomie și funcționalitate, folosind randări realiste pentru o viziune clară a rezultatului final.",
       block2_title: "2. Producție",
@@ -74,11 +74,11 @@ const translations = {
       desc: "Каждая созданная нами мебель рассказывает свою историю. Мы с энтузиазмом работаем над разными проектами — от элегантных гостиных и спален до оптимизированных рабочих пространств и функциональных кухонь. Каждый проект — это вызов, который мы превращаем в индивидуальные решения, адаптированные к потребностям и стилю каждого клиента."
     },
     projectsPage: {
-      title: "Проекты Mobilus",
+      title: "Проекты Master Mobilus",
       desc: "Наши проекты отражают желания клиентов, воплощённые в функциональной, эстетичной и долговечной мебели, идеально подходящей для каждого пространства."
     },
     about: {
-      title: "О Mobilus",
+      title: "О Master Mobilus",
       block1_title: "1. Консультация и проектирование",
       block1_desc: "Всё начинается с обсуждения. Мы выслушиваем пожелания и потребности клиента, делаем замеры и предлагаем индивидуальные решения. Дизайн создаётся с учётом интерьера, эргономики и функциональности, используя реалистичные рендеры для чёткого представления результата.",
       block2_title: "2. Производство",

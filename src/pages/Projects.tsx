@@ -23,7 +23,7 @@ const ProjectsPage = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1], delay: 0.7 }}
-          className='text-zinc-300 font-alata text-base lg:text-xl'
+          className='text-zinc-300 font-dm-sans text-base lg:text-xl'
         >
           {t('projectsPage', 'desc')}
         </motion.span>
