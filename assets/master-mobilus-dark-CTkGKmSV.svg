@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="logo-dark" width="300" height="110" viewBox="0 0 300 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="18" y="26" width="28" height="28" stroke="white" stroke-width="1.5" fill="none"/>
+      <rect x="32" y="40" width="28" height="28" stroke="white" stroke-width="1.5" fill="none" opacity="0.45"/>
+      <line x1="46" y1="26" x2="46" y2="68" stroke="white" stroke-width="1.5"/>
+      <text x="82" y="48" font-family="DM Sans, sans-serif" font-weight="200" font-size="21" fill="white" letter-spacing="6">MASTER</text>
+      <text x="82" y="73" font-family="DM Sans, sans-serif" font-weight="600" font-size="21" fill="white" letter-spacing="6">MOBILUS</text>
+      <line x1="82" y1="83" x2="272" y2="83" stroke="white" stroke-width="0.5" opacity="0.25"/>
+    </svg>
